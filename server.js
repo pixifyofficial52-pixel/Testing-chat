@@ -10,7 +10,7 @@ const app = express();
 
 // ========== CORS configuration ==========
 const allowedOrigins = [
-    "https://live-whats-chatting-production-5744.up.railway.app",
+    "https://testing-chat-production.up.railway.app",
     "http://localhost:3000"
 ];
 
@@ -1494,5 +1494,5 @@ io.on('connection', (socket) => {
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-    console.log(`✅ HJH Chat app running on https://live-whats-chatting-production-5744.up.railway.app`);
+    console.log(`✅ HJH Chat app running on https://testing-chat-production.up.railway.app`);
 });
